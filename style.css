@@ -1,0 +1,11 @@
+header{
+    height: 120px;
+    background-color: antiquewhite;
+}
+
+header li{
+    list-style: none;
+    float: left;
+    margin-right: 40px;
+    font-family: "Rounded Mplus 1c";
+}
