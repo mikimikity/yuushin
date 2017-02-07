@@ -1,5 +1,6 @@
 body{
     background: #8f8f8f;
+    font-family: "Rounded Mplus 1c";
 }
 header{
     height: 60px;
@@ -15,7 +16,6 @@ header li{
     list-style: none;
     float: left;
     margin-right: 60px;
-    font-family: "Rounded Mplus 1c";
     font-weight: 600;
     font-size: 18px;
     
@@ -26,9 +26,32 @@ header li{
     filter: brightness(130%) ;
 }
 
+h2 {
+	position: relative;
+	padding: 1em 0;
+}
+h2::before,
+h2::after {
+	position: absolute;
+	left: 0;
+	content: '';
+	width: 100%;
+	height: 6px;
+	box-sizing: border-box;
+}
+h2::before {
+	top: 0;
+	border-top: 2px solid #ccc;
+	border-bottom: 1px solid #ccc;
+}
+h2::after {
+	bottom: 0;
+	border-top: 1px solid #ccc;
+	border-bottom: 2px solid #ccc;
+}
 .title{
     font-weight: 800;
-    text-align: left;
+    text-align: center;
 }
 
 .centerBox {
@@ -61,13 +84,11 @@ header li{
 }
 
 .news_title{
-   font-family: "Rounded Mplus 1c";
     font-weight: 500;
     padding-top: 5px;
     text-align: center;
 }
 .news_day{
-   font-family: "Rounded Mplus 1c";
     font-size: 12px;
     padding-top: 25px;
 }
@@ -78,7 +99,7 @@ header li{
     border: 2px solid #5045E5;
     border-radius: 5px;
     box-shadow: 0 0 0 2px #fff;
-    color: #0a8915;
+    color: #292375;
     margin: 2em 0;
     padding: 2em;
 }
