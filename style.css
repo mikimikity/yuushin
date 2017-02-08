@@ -3,7 +3,11 @@ body{
     /*font-family: "Rounded Mplus 1c";*/
 }
 header{
-    height: 80px;
+    height: 200px;
+    position: fixed;
+    width: 100%;
+    top: 0;
+    z-index: 9999;
     
 }
 
@@ -17,10 +21,23 @@ header li{
     list-style: none;
     float: left;
     margin-right: 60px;
-    font-weight: 400;
+    font-weight: 500;
     font-size: 20px;
+    color: aliceblue;
     
 }
+
+header li:hover {
+    opacity: 0.8;
+    color: #fff681;
+}
+
+header img{
+    height: 100px;
+   margin-top: 15px;
+    margin-left: 30px;
+}
+
 
 .main_img img{
     width: 100%;
@@ -75,25 +92,32 @@ h2::after {
     margin: 10px;
     box-shadow: 0 2px 10px;
     width: 300px;
-    height: 300px;
+    height: 350px;
     float: left;
 }
 
 .news_img{
     width: 300px;
-    height: 230px;
+    height: 300px;
     text-align: center;
     overflow: hidden;
 }
 
 .news_title{
     font-weight: 500;
-    padding-top: 5px;
+    font-size: 18px;
+    padding-top: 10px;
     text-align: center;
 }
 .news_day{
+    font-weight: 200;
     font-size: 12px;
-    padding-top: 25px;
+    padding-top: 10px;
+    text-align: right;
+}
+
+.all-news{
+   float: both;
 }
 
 /*---------- 勇心会とは ----------*/
@@ -106,6 +130,7 @@ h2::after {
     color: #292375;
     margin: 2em 0;
     padding: 2em;
+    width: 600px;
 }
 
 .aboutbox {
@@ -113,15 +138,19 @@ h2::after {
     overflow: hidden;
     text-align: left;
 }
-.about img{
+.yushin img{
     float: left;
-    padding-top: 20px;
+    width: 300px;
 }
 
-.yushin{
-    float: left;
-    width: 500px;
-    padding-left: 10px;
+.master img{
+    float: right;
+    width: 200px;
+}
+
+.comment{
+   
+    margin: 15px;
 }
 
 /*---------- フッター ----------*/
