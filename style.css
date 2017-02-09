@@ -8,13 +8,29 @@ header{
     width: 100%;
     top: 0;
     z-index: 9999;
-    
+    transition: .3s;
+
 }
 
 .menu{
     float: right;
     margin-right: 40px;
     margin-top: 30px;
+}
+
+.is-animation {
+	height: 100px;
+  background: rgba( 0, 0, 0, 0.9);
+}
+
+.is-animation img {
+  height: 80px;
+  transition: .3s;
+}
+
+.is-animation .menu {
+  margin-top: 15px;
+  transition: .3s;
 }
 
 header li{
