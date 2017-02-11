@@ -107,8 +107,6 @@ h2::after {
 .newsbox{
     background-color: #fff;
     padding: 10px;
- 
-   
     width: 320px;
     height: 320px;
     float: left;
@@ -192,26 +190,39 @@ h2::after {
 .about{
     display: inline-block;
     background-color: #fff;
-   
+    text-align: center;
     color: #292375;
     margin: 2em 0;
     padding: 2em;
-    width: 600px;
+    width: 1030px;
 }
 
 .aboutbox {
-    display: block;
+    width: 800px;
+    display: inline-block;
     overflow: hidden;
-    text-align: left;
+    text-align: center;
+    margin-top: 80px;
+}
+
+.about-title{
+    font-family: monospace;
+    font-weight: 700;
+    font-size: 22px;
+}
+.aboutbox p{
+   text-align: left;
 }
 .yushin img{
     float: left;
-    width: 300px;
+    width: 400px;
+    margin-right: 20px;
 }
 
 .master img{
     float: right;
-    width: 200px;
+    width: 300px;
+    margin-left: 20px;
 }
 
 .comment{
